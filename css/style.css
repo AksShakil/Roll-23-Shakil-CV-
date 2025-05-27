@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+
+}
+
+html{
+
+    overflow-x: hidden;
+}
+
+
+ul,li{
+
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+
+    text-decoration: none;
+    color: #000;
+}
+
+
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+    td, th {
+      border: 1px solid #333;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+
+
+    .container{
+
+        height: 100%;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+
+
+    /* header part start */
+
+
+    .header-part{
+
+        height: 15rem;
+        width: 100%;
+       
+    }
+
+    .header-part .main{
+
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+
+    .header-part .main .left{
+
+        height: 100%;
+        padding-top: 3rem;
+
+        
+
+    }
+
+
+    .header-part .main .left h1{
+
+        margin-bottom: 13px;
+        letter-spacing: 1px;
+        line-height: 1.5rem;
+    }
+
+
+    .header-part .main .left p{
+
+        margin-bottom: 13px;
+        letter-spacing: 1px;
+        line-height: 1.5rem;
+    }
+
+    
+    .header-part .main .left span{
+
+        margin-left: 5.3rem;
+        line-height: 2rem;
+    }
+
+
+
+
+    .header-part .main .right{
+
+        height: 100%;
+        
+    }
+
+
+    .header-part .main .right img{
+
+        height: 10rem;
+        width: 10rem;
+        margin-left: 18rem;
+        padding-top: 2rem;
+    }
+
+
+    /* header part end */
+
+
+
+
+    /* career part start */
+
+    #career-obj{
+
+        height: 100%;
+        width: 100%;
+        padding: 1.5rem 0;
+    }
+
+    #career-obj h1{
+
+        margin-bottom: 1rem;
+    }
+
+    #career-obj p{
+
+        line-height: 2rem;
+    }
+
+
+    /* career part end */
+
+
+
+
+
+    /* result part start */
+
+    #result-part{
+
+        height: 100%;
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    #result-part .table{
+
+        width: 100%;
+        border-collapse: collapse;
+
+    }
+
+     td,th{
+
+        border: 1px solid #333;
+        padding: 1rem;
+        text-align: center;
+        
+    }
+
+
+
+    /* result part end */
+
+
+
+
+    /* experience part start */
+
+
+    #experience-part{
+
+        height: 100%;
+        width: 100%;
+        padding-bottom: 2rem;
+
+    }
+
+
+    #experience-part h1{
+        margin-bottom: 1rem;
+    }
+
+
+    #experience-part h3{
+        margin-bottom: 1rem;
+    }
+
+
+    #experience-part p{
+        margin-bottom: 1rem;
+    }
+
+    #experience-part .web{
+
+        margin-top: 3rem;
+    }
+
+
+
+    /* experience part end */
+
+
+
+    /* skill part start */
+
+    .skill-part{
+
+        height: 100%;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+
+    .skill-part h1{
+
+        margin-bottom: 1rem;
+    }
+
+    .skill-part ul li{
+
+        margin-bottom: 1rem;
+    }
+
+
+    /* skill part end */
+
+
+    /* ref part start */
+
+    .ref-part{
+
+        height: 100%;
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .ref-part h1{
+
+        margin-bottom: 2rem;
+    }
+
+
+    .ref-part span{
+
+        font-weight: bold;
+    }
+
+
+
+    .ref-part p{
+
+        margin-bottom: 1rem;
+    }
+
+
+    /* ref part end */
+
+
+    /* language part start */
+
+    .language-part{
+
+        height: 100%;
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .language-part h1{
+        margin-bottom: 2rem;
+    }
+
+    .language-part table{
+
+        width: 50%;
+        margin-left: 0;
+    }
+
+
+    /* language part end */
+
+
+
+
+    /* preferred role start */
+
+    #preffered-role{
+
+        height: 100%;
+        width: 100%;
+    }
+
+
+    #preffered-role h1{
+
+        margin-bottom: 1rem;
+    }
+
+
+    #preffered-role ul{
+
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+    }
+
+
+    #preffered-role ul li{
+
+        margin-bottom: 1.5rem;
+        list-style: disc;
+    }
+
+
+
+    /* preferred role end */
